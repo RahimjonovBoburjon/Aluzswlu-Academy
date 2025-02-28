@@ -19,6 +19,12 @@
                 </button>
                 <p v-if="error" class="text-red-500 mt-2 text-center">{{ error }}</p>
             </form>
+            <!-- 🔥 Reset Password uchun link -->
+            <div class="mt-4 text-center">
+                <router-link to="/reset-password" class="text-blue-500 hover:underline">
+                    Parolni unutdingizmi?
+                </router-link>
+            </div>
         </div>
     </div>
 </template>
@@ -50,8 +56,6 @@ export default {
     },
 };
 </script>
-
-
 
 <style scoped>
 .input-field {

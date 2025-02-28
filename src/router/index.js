@@ -4,6 +4,7 @@ import Login from "../views/Login.vue";
 import SignUp from "../views/SignUp.vue";
 import Dashboard from "../views/Dashboard.vue";
 import NotFound from '../views/404.vue';
+import ResetPassword from "../views/ResetPassword.vue";
 import { getUserState } from "../firebase/authGuard";
 
 const routes = [
@@ -11,6 +12,7 @@ const routes = [
     { path: "/login", component: Login, meta: { requiresGuest: true } },
     { path: "/signup", component: SignUp, meta: { requiresGuest: true } },
     { path: "/dashboard", component: Dashboard, meta: { requiresAuth: true } },
+    { path: "/reset-password", component: ResetPassword, meta: { requiresGuest: true } },
     { path: "/:pathMatch(.*)*", component: NotFound },
 ];
 
