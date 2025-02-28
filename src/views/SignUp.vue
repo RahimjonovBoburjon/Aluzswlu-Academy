@@ -28,7 +28,7 @@ export default {
             try {
                 await createUserWithEmailAndPassword(auth, email.value, password.value);
                 localStorage.setItem("user", JSON.stringify(auth.currentUser));
-                router.push("/dashboard");
+                window.location.href = "/dashboard";
             } catch (err) {
                 error.value = err.message;
             }
