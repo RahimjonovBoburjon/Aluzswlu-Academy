@@ -53,7 +53,7 @@ export default {
 
 
 
-<style>
+<style scoped>
 .input-field {
     width: 100%;
     padding: 10px;

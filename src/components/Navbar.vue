@@ -1,6 +1,8 @@
 <template>
     <nav class="bg-blue-600 text-white p-4 flex justify-between items-center">
-        <h1 class="text-xl font-bold">PrepUzSWLU</h1>
+        <a href="/">
+            <h1 class="text-xl font-bold">PrepUzSWLU</h1>
+        </a>
         <div>
             <router-link v-if="!isLoggedIn" to="/login" class="mr-4">Login</router-link>
             <router-link v-if="!isLoggedIn" to="/signup">Sign Up</router-link>
