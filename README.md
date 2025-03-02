@@ -30,7 +30,7 @@ Loyiha quyidagi texnologiyalar asosida qurilgan:
    ```sh
    npm run dev
    ```
-   Brauzerda `http://localhost:5173` manziliga kiring.
+   Brauzerda `http://localhost:8080` manziliga kiring.
 
 ---
 
