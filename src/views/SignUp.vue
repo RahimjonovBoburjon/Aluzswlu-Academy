@@ -62,7 +62,7 @@ export default {
                 success.value = "Muvaffaqiyatli ro‘yxatdan o‘tildi!";
                 setTimeout(() => {
                     window.location.href = "/dashboard";
-                }, 1500);
+                }, 1200);
             } catch (err) {
                 switch (err.code) {
                     case "auth/email-already-in-use":
